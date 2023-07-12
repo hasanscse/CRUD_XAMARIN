@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Add Company"
+             x:Class="CRUD_Final.Views.AddCompanyPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical"
+                     Padding="32"
+                     Spacing="10">
+            
+            <Entry x:Name="txtName"
+                   Placeholder="Enter Company Name"/>
+
+            <Entry x:Name="txtAddress"
+                   Placeholder="Address"/>
+
+            <Button Text="Add"
+                    x:Name="btn_Add"
+                    Clicked="btn_Add_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
